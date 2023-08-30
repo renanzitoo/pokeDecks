@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Details View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="Details" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="DetailsViewController" customModule="PokeDecks" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Charizard-GX" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pQN-5t-Hbd">
+                                <rect key="frame" x="16" y="75" width="361" height="28.666666666666671"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tipo: Fogo" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d6z-06-Npb">
+                                <rect key="frame" x="72" y="523.66666666666663" width="249" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HP: 250" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MXB-FW-DeV">
+                                <rect key="frame" x="72" y="563.66666666666663" width="249" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Numero : 6" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jQt-C8-ndA">
+                                <rect key="frame" x="72" y="603.66666666666663" width="249" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Evolui de: Charmeleon" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jcL-hz-zf0">
+                                <rect key="frame" x="72" y="643.66666666666663" width="249" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kbz-2I-25H">
+                                <rect key="frame" x="72" y="115.66666666666669" width="249" height="360"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="360" id="qkv-xP-bNe"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="d6z-06-Npb" firstAttribute="top" secondItem="kbz-2I-25H" secondAttribute="bottom" constant="48" id="08i-hn-Zkg"/>
+                            <constraint firstItem="MXB-FW-DeV" firstAttribute="top" secondItem="d6z-06-Npb" secondAttribute="bottom" constant="16" id="1jl-0V-iDm"/>
+                            <constraint firstItem="kbz-2I-25H" firstAttribute="top" secondItem="pQN-5t-Hbd" secondAttribute="bottom" constant="12" id="8YB-eo-dWW"/>
+                            <constraint firstItem="MXB-FW-DeV" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="72" id="8hv-Sb-Iqd"/>
+                            <constraint firstItem="pQN-5t-Hbd" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="16" id="C02-z7-ARY"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="pQN-5t-Hbd" secondAttribute="trailing" constant="16" id="DJi-oR-hMF"/>
+                            <constraint firstItem="jQt-C8-ndA" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="72" id="Dvi-gT-yyE"/>
+                            <constraint firstItem="kbz-2I-25H" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="72" id="L9e-Uf-zNa"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="jQt-C8-ndA" secondAttribute="trailing" constant="72" id="MVN-es-qJ4"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="MXB-FW-DeV" secondAttribute="trailing" constant="72" id="Uyf-02-JGe"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="d6z-06-Npb" secondAttribute="trailing" constant="72" id="W4G-qz-KEZ"/>
+                            <constraint firstItem="pQN-5t-Hbd" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="16" id="bTD-3b-WAg"/>
+                            <constraint firstItem="jcL-hz-zf0" firstAttribute="top" secondItem="jQt-C8-ndA" secondAttribute="bottom" constant="16" id="buF-jW-8hJ"/>
+                            <constraint firstItem="jcL-hz-zf0" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="72" id="dv9-QA-JgU"/>
+                            <constraint firstItem="d6z-06-Npb" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="72" id="iYd-k5-pMr"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="jcL-hz-zf0" secondAttribute="trailing" constant="72" id="p5j-Z7-MBx"/>
+                            <constraint firstItem="jQt-C8-ndA" firstAttribute="top" secondItem="MXB-FW-DeV" secondAttribute="bottom" constant="16" id="r8o-IM-RLl"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="kbz-2I-25H" secondAttribute="trailing" constant="72" id="tVh-MT-lFV"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="pokemonCard" destination="kbz-2I-25H" id="uir-Te-rHb"/>
+                        <outlet property="pokemonEvolves" destination="jcL-hz-zf0" id="r7V-ml-gXi"/>
+                        <outlet property="pokemonHP" destination="MXB-FW-DeV" id="Ehz-Cl-JTS"/>
+                        <outlet property="pokemonName" destination="pQN-5t-Hbd" id="UR0-0L-XSh"/>
+                        <outlet property="pokemonNumber" destination="jQt-C8-ndA" id="Q5Y-A9-sTX"/>
+                        <outlet property="pokemonType" destination="d6z-06-Npb" id="CXW-qD-fvf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="46.564885496183201" y="-2.1126760563380285"/>
+        </scene>
+    </scenes>
+</document>
