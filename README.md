@@ -18,11 +18,11 @@ Before starting, check the following requirements:
 
 if you have ssh configured, run the command
 ```
-git clone git@github.com:yago-marques/WeCare.git
+git clone git@github.com:renanzitoo/pokeDecks.git
 ```
 if you don't have ssh configured, run the command
 ```
-git clone https://github.com/yago-marques/WeCare.git
+git clone https://github.com/renanzitoo/pokeDecks.git
 ```
 
 After installing, open the installed folder with XCode and run `command + R`
